@@ -1,0 +1,17 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "description": "sample api tests",
+  "main": "index.js",
+  "scripts": {
+    "api-tests": "CYPRESS_BASE_URL=https://dummyjson.com cypress run --spec cypress/e2e/*.cy.{ts,tsx} --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "14.0.3",
+    "cypress-mochawesome-reporter": "3.8.2",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}

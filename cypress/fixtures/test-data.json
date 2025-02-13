@@ -1,0 +1,59 @@
+{
+  "PRODUCT_LIST": {
+    "RANDOM_PRODUCTS": [
+      {
+        "title": "Eggs",
+        "price": 2.99,
+        "category": "groceries"
+      },
+      {
+        "title": "Juice",
+        "price": 3.99,
+        "category": "groceries"
+      },
+      {
+        "title": "Kiwi",
+        "price": 2.49,
+        "category": "groceries"
+      }
+    ],
+    "total": 194,
+    "limit": 30
+  },
+
+  "PRODUCT_KIWI": {
+    "id": 30,
+    "title": "Kiwi",
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "category": "groceries",
+    "price": 2.49,
+    "discountPercentage": 10.32,
+    "rating": 4.37,
+    "stock": 1,
+    "tags": ["fruits"],
+    "sku": "0X3NORB9",
+    "weight": 8,
+    "dimensions": {
+      "width": 27.3,
+      "height": 7.48,
+      "depth": 15.08
+    }
+  },
+
+  "NEW_PRODUCT": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "title": "Refrigerator",
+      "price": 4000,
+      "category": "electronics",
+      "weight": 30,
+      "dimensions": {
+        "width": 35,
+        "height": 130,
+        "depth": 40
+      }
+    }
+  }
+}
